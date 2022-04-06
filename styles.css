@@ -1,0 +1,104 @@
+h1 {
+    color: moccasin;
+}
+
+h3 {
+    color: moccasin;
+}
+
+h4 {
+    color: moccasin;
+}
+
+img {
+    width: 500px;
+    /*Establezco la anchura*/
+    height: 400px;
+    /*Establezco la altura*/
+}
+
+ul {
+    list-style: none;
+    /*Para quitarle los puntitos a la lista */
+}
+
+span {
+    /*Para que no ocupe tanto espacio modificar margin de su id*/
+    display: block;
+}
+
+a {
+    display: block;
+}
+
+.center {
+    /*Divs centrados */
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    /*Usando flex para centrar las imagenes que estan dentro del div*/
+    display: flex;
+    justify-content: center;
+}
+
+.countainer {
+    /*Clase contenedora*/
+    height: 100vh;
+    /*100vh = altura del viewport*/
+    width: 100vw;
+    /*100vw = ancho del viewport*/
+    position: relative;
+}
+
+.divClass {
+    width: 100vw;
+}
+
+.txtCenter {
+    /*Centrado de textos y en linea simple*/
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre;
+}
+
+#fondo {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    filter: brightness(40%);
+    /*Hace mas oscura la imagen*/
+}
+
+#thirdDiv {
+    background-color: black;
+    padding: 50px;
+    /*Relleno*/
+    border: none;
+}
+
+#spanId {
+    font-size: 18px;
+    /*Tamaño de fuente*/
+    margin: 50px;
+    /*Margen*/
+    color: moccasin;
+}
+
+.DisplayFlex {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.DisplayFlex div {
+    margin: 0 auto;
+}
